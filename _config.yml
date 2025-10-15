@@ -8,8 +8,10 @@ subtitle: ''
 description: ''
 keywords:
 author: Mu Li
-language: cn
-timezone: ''
+language:
+- zh-tw
+- en
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
