@@ -68,29 +68,32 @@ $logo-text
 
 $nav-link
   float: left
-  color: #fff
+  color: #ff0000ff
   opacity: 0.6
   text-decoration: none
   text-shadow: 0 1px rgba(0, 0, 0, 0.2)
   transition: opacity 0.2s
   display: block
   padding: 20px 15px
+  font-size: 30px
   &:hover
     opacity: 1
 
 .nav-icon
   @extend $nav-link
   text-align: center
-  font-size: font-size
-  width: font-size
-  height: font-size
+  font-size: nav-icon-size
+  width: nav-icon-size
+  height: nav-icon-size
   padding: 20px 15px
   position: relative
   cursor: pointer
+  color: nav-icon-color
+  opacity: 1
 
 .main-nav-link
   @extend $nav-link
-  font-weight: 300
+  font-weight: 600
   letter-spacing: 1px
   @media mq-mobile
     display: none
