@@ -1,5 +1,5 @@
 # Alternate site name
-alternate: Yume Shoka
+alternate: the years when the road
 
 open_graph:
   #twitter_id:
@@ -224,7 +224,7 @@ audio:
   #    - https://music.163.com/#/playlist?id=2031842656
 
 # random image api
-image_server: # "https://acg.xydwz.cn/api/api.php"
+image_server: "https://cdn.jsdelivr.net/gh/muyuliyan/myblog_figureBed@main/covers/" # "https://acg.xydwz.cn/api/api.php"
 
 # Algolia Search
 # For more information: https://www.algolia.com
