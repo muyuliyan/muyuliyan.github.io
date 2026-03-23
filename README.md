@@ -13,7 +13,14 @@ If you run into any problems, please leave a message in `issue` or contact me by
 如果你想直接使用我当前这套模板，请按照以下步骤进行操作
 首先，请确保你的 Node >= 20.19+，我的版本是（v24.14.0），然后在项目根目录运行 `npm ci` , 最后执行 `npm run build` 即可，如果有什么问题，请在 `issue` 内留言或通过邮箱与我联系，谢谢。
 
-MIT License
+---
+
+## License
+
+This project is licensed under the MIT License.
+
+<details>
+<summary>View Full MIT License</summary>
 
 Copyright (c) 2020 霜月琉璃
 
@@ -34,3 +41,5 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+</details>
