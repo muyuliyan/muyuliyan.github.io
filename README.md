@@ -1,17 +1,39 @@
 # my-blog
-This is the simple guy's private blog.Now it may be simple and crude,but i believe it will be beautiful one day.
+This is my personal blog project. It may still look simple for now, but I am continuously improving it.
 
-You can now visit it at (https://blog.muyuliyan.com/). The site is still in its early decoration stage, so there may still be some issues. Thank you for your understanding :).
-This repository is based on the [shoka theme template](https://github.com/amehime/hexo-theme-shoka "Click to visit the hexo-theme-shoka GitHub repository"), and related background setup and personalization are still in progress.
-If you want to use my current template directly, please follow these steps:
-First, make sure your Node version is >= 20.19+ (mine is v24.14.0), then run `npm ci` in the project root directory, and finally execute `npm run build`.
+## English
+
+You can visit the website here: https://blog.muyuliyan.com/
+
+The site is still in an early customization stage, so there may be a few issues. Thanks for your understanding :)
+
+This repository is based on the [shoka theme template](https://github.com/amehime/hexo-theme-shoka "Click to visit the hexo-theme-shoka GitHub repository"), with additional customization and content updates.
+
+If you want to use this template directly, follow the steps below:
+
+1. Make sure your Node.js version is 20.19 or above (my current version is v24.14.0).
+2. Run `npm ci` in the project root to install dependencies.
+3. Run `npm run server` (or `hexo s`) for local preview.
+4. Run `npm run build` (or `hexo generate`) to build static files in the `public` directory.
+
 If you run into any problems, please leave a message in `issue` or contact me by email. Thank you.
 
+## 中文
 
-你现在可以通过该网址(https://blog.muyuliyan.com/) 访问它了哦，装修还在起步阶段，所以还有一些问题，请谅解 :)。
-本仓库使用了[shoka 主题仓库模板](https://github.com/amehime/hexo-theme-shoka "点击访问 hexo-theme-shoka 的 GitHub 仓库")，相关的背景和个性化设置正在进行ing
-如果你想直接使用我当前这套模板，请按照以下步骤进行操作
-首先，请确保你的 Node >= 20.19+，我的版本是（v24.14.0），然后在项目根目录运行 `npm ci` , 最后执行 `npm run build` 即可，如果有什么问题，请在 `issue` 内留言或通过邮箱与我联系，谢谢。
+你现在可以通过该网址访问博客了哦：https://blog.muyuliyan.com/
+
+网站还在持续装修和个性化配置阶段，可能仍有一些问题，请谅解 :)
+
+本仓库基于 [shoka 主题模板](https://github.com/amehime/hexo-theme-shoka "点击访问 hexo-theme-shoka 的 GitHub 仓库") 构建，并在此基础上持续进行内容与样式定制。
+
+如果你想直接使用我当前这套模板，请按以下步骤操作：
+
+1. 确保 Node.js 版本不低于 20.19（我当前使用 v24.14.0）。
+2. 在项目根目录运行 `npm ci` 安装依赖。
+3. 运行 `npm run server`（或 `hexo s`）进行本地预览。
+4. 运行 `npm run build`（或 `hexo generate`）生成静态文件，输出目录为 `public`。
+
+如果遇到问题，欢迎在 `issue` 留言或通过邮箱联系我，谢谢。
 
 ---
 
