@@ -190,6 +190,16 @@ const postBeauty = function () {
     var code_container = element.child('.code-container');
     var caption = element.child('figcaption');
 
+    if (!caption) {
+      var langs = element.className.split(/\s+/).filter(function(name) {
+        return name && name !== 'highlight' && name !== 'breakline' && name !== 'fullscreen';
+      });
+      var lang = langs[0] || 'text';
+      var label = lang === 'plaintext' ? 'text' : lang;
+      element.insertAdjacentHTML('afterbegin', '<figcaption data-lang="' + label + '"></figcaption>');
+      caption = element.child('figcaption');
+    }
+
     element.insertAdjacentHTML('beforeend', '<div class="operation"><span class="breakline-btn"><i class="ic i-align-left"></i></span><span class="copy-btn"><i class="ic i-clipboard"></i></span><span class="fullscreen-btn"><i class="ic i-expand"></i></span></div>');
 
     var copyBtn = element.child('.copy-btn');
